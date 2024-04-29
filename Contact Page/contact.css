@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(45, 3, 48),purple);
+    padding: 15px 200px;
+    border-bottom: 3px solid #401e63;
+    position: sticky;
+    top: 0px;
+    
+}
+.logo{
+    color: white;
+    padding-left: 20px;
+}
+.menu>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu>ul>li{
+    list-style-type: none;
+    padding:0px 10px;
+
+}
+.menu>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding:5px 8px ;
+    transition: 0.5s;
+}
+.menu>ul>li:hover>a{
+    background-color: rgb(14, 2, 26);
+}
+.contact-form{
+    width: 800px;
+    margin: auto;
+    box-shadow: 10px 10px 10px grey;
+}
+.contact-form-container{
+    text-align: center;
+    margin: 100px auto;
+    background-color: lightpink;
+    padding: 50px 0;
+    
+}
+.contact-form-container h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-form-container input{
+    margin: 12px 0;
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding-left: 15px;
+    border-radius: 15px;
+   
+}
+
+.contact-form-container textarea{
+              width: 400px;
+              border-radius: 20px;
+              resize: none;
+              padding-left: 20px;
+              padding-top: 20px;
+              border: none;
+              margin: 10px 0;
+
+}
+
+.c-button{
+    background-image: linear-gradient(to left, rgb(9, 9, 99),rgb(129, 13, 13),rgb(148, 12, 148));
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+}
+

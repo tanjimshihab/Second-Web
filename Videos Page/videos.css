@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(45, 3, 48),purple);
+    padding: 15px 200px;
+    border-bottom: 3px solid #401e63;
+
+    
+}
+.logo{
+    color: white;
+    padding-left: 20px;
+}
+.menu>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu>ul>li{
+    list-style-type: none;
+    padding:0px 10px;
+
+}
+.menu>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding:5px 8px ;
+    transition: 0.5s;
+}
+.menu>ul>li:hover>a{
+    background-color: rgb(14, 2, 26);
+}
+.sec-one{
+    background-color: #2D236A;
+    width: 100%;
+  
+    
+}
+.sec-one-container{
+    margin: auto;
+    width: 1100px;
+   padding: 50px 0;
+}
+.sec-one-title{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-one-title span{
+    background-color: rgb(130, 121, 121);
+        padding: 5px;
+        color: black;
+        border-radius: 3px;
+        margin: 0 8px;
+        cursor: pointer;
+}
+.sec-one-title h3{
+    color: #04AA6D;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sec-one-title h4{
+    color: #04AA6D;
+   
+}
+
+
+.single-item-parent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px 20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    
+   
+}
+.single-item-box{
+   
+      height: 300px;
+      border: 3px solid grey;
+      
+   
+    
+}
+.single-item-box>img{
+           width: 100%;
+           height: 100%;
+          transition: 0.5s;
+           
+}
+.single-item-box:hover img{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.single-item-text{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+    padding-top: 10px;
+
+}
+.pandn-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+.pandn-parent a{
+    text-decoration: none;
+    color: white;
+}
+.pandn-parent i{
+    margin: 0 2px;
+    
+}
+.pandn-parent h3 a{
+    background-color: #04AA6D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.5s;
+    
+}
+.pandn-parent h3 a:hover{
+            background-color: #0a5237;
+}
+.pandn-parent div a{
+   background-color: white;
+   padding: 5px 8px;
+   color: black;
+   margin: 0 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   border: 1px solid gray;
+}
+.pandn-parent div a:first-child{
+    background-color: #04AA6D;
+}
